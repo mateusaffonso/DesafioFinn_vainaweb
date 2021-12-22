@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #2CB3F3;
+}
+
+.pharses{
+    height: 15vh;
+}
+
+h1{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.backgroundDrawing{
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    left: 25vw;
+    background-color:#FFFFFF ;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
+.face{
+    position:absolute;
+    width: 40vw;
+    height: 50vh;
+    background-color: #FFE1C9 ;
+    left: 5vw ;
+    top: 10vh;
+    border-radius: 50%;
+}
+
+.eyes{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    top: 7.5vh;
+
+}
+
+.left{
+    background-color: black;
+    width: 4vw;
+    height: 7vh;
+    border-radius: 50%;
+}
+
+.right{
+    background-color: black;
+    width: 4vw;
+    height: 7vh;
+    border-radius: 50%;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    position: absolute;
+    top: 30vh;
+    left: 11vw;
+}
+
+.input_email{
+    width: 18vw;
+    height: 6vh;
+    font-size: 3vh;
+    
+}
+
+.input_password{
+    width: 18vw;
+    height: 6vh;
+    font-size: 3vh;
+}
+
+.button{
+    
+    position: absolute;
+    left: 47.5vw;
+    margin-top: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #55A603;
+    color: #B2F272;
+    font-size: 2.5vh;
+    border-radius: 10%;
+    box-shadow: 5px 6px 5px black;
+    
+}
+
+
